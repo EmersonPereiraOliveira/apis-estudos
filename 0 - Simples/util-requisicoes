@@ -1,0 +1,13 @@
+curl http://localhost:8080/api/v1/example
+curl -XPOST http://localhost:8080/api/v1/example
+curl -H "Content-type: application/json" -XPOST http://localhost:8080/api/v1/example -d '{"nome": "Emerson"}'
+
+curl -H "Content-type: application/json" -XPUT http://localhost:5000/usuario/2 -d '{"nome": "Emerson", "email": "emersonhawnovo@gmail.com", "senha": "12345", "setor": "1"}'
+curl -H "Content-type: application/json" -XDELETE http://localhost:5000/usuario/20
+
+
+
+http://blog.4linux.com.br/flask-basico/
+https://www.youtube.com/watch?v=xkmzdBixSlg
+
+https://www.youtube.com/watch?v=W6JvboT8Uo8
